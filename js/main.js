@@ -41,6 +41,7 @@ document.getElementById("btnSuma").addEventListener("click", function() {
 });
 
 let hiddenGpt = document.getElementById("hiddenGpt");
+document.getElementById('btngpt').style.display = 'none';
 //Seleccionar select con id selectChatGPT
 document.getElementById("selectChatGPT").addEventListener("change", function() {
     let select = document.getElementById("selectChatGPT");
