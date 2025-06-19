@@ -8,6 +8,7 @@
     <meta name="author" content="Nosotros">
     <!-- Despues van las etiquetas para manejar css -->
     <link rel="stylesheet" href="Styles/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <title>Practica JS</title>
 </head>
 <header>
@@ -20,13 +21,28 @@
     <button id="btnResta" class="styles-btns">Resta</button>
     <button id="btnMultiplicar" class="styles-btns">Multiplicar</button>
     <button id="btnDividir" class="styles-btns">Dividir</button>
-    <p id="resultado"></p>
+    <div class="alert alert-success col-4" role="alert" id="resultado">
+    </div>
     <select id="selectChatGPT" class="styles-btns">
         <option value="no" selected>No mostrar ChatGPT</option>
         <option value="yes">Mostrar ChatGPT</option>
     </select>
     <input type="hidden" id="hiddenGpt" value="no"></input>
     <p><button id="btngpt" class="styles-btns"><a href="https://chatgpt.com/">ChatGPT</a></button></p>
+    <div class="container text-center col-12 d-flex flex-row">
+        <div class="row row-cols-2 col-6">
+            <button type="button" class="btn btn-outline-primary btn-lg col">Boton bootstrap</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg col">Boton</button>
+            <button type="button" class="btn btn-outline-success btn-lg col">Boton bootstrap3</button>
+            <button type="button" class="btn btn-outline-success btn-lg col">Boton bootstrap4</button>
+        </div>
+        <div class="row row-cols-2 col-6 ms-4">
+            <button type="button" class="btn btn-outline-primary btn-lg col">Boton bootstrap</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg col">Boton</button>
+            <button type="button" class="btn btn-outline-success btn-lg col">Boton bootstrap3</button>
+            <button type="button" class="btn btn-outline-success btn-lg col">Boton bootstrap4</button>
+        </div>
+    </div>
 </body>
 <footer>
 </footer>
@@ -35,4 +51,5 @@
 <script src="./js/rest.js"></script>
 <script src="./js/multi.js"></script>
 <script src="./js/dividir.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </html>

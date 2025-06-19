@@ -1,6 +1,7 @@
 //Cuando se cargue el dom mandar mensaje en consola
 document.addEventListener("DOMContentLoaded", function() {
     console.log("DOM cargado");
+    document.getElementById("resultado").style.display = 'none';;
 });
 
 function sumar(val1, val2) {
@@ -32,7 +33,6 @@ document.getElementById("btnSuma").addEventListener("click", function() {
 
     //Vamos a mostrar el contenedor con el css display:block;
     contenedorResultado.style.display = "block";
-    contenedorResultado.style.backgroundColor = "#FFFFFF"
 
     contenedorResultado.innerHTML = `El resultado de la suma es: ${resultado}`;
     ejemplo = 1;
