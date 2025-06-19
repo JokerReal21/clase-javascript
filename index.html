@@ -1,13 +1,18 @@
 <link rel="stylesheet" href="Styles/main.css">
 <h3 id="titulo">Aqui vamos a practicar JS</h3>
-<p><button id="btngpt"><a href="https://chatgpt.com/">ChatGPT</a></button></p>
 <input type="number" id="val1" placeholder="Ingrese valor 1"></input>
 <input type="number" id="val2" placeholder="Ingrese valor 2"></input>
-<button id="btnSuma">Sumar</button>
-<button id="btnResta">Resta</button>
-<button id="btnMultiplicar">Multiplicar</button>
-<button id="btnDividir">Dividir</button>
+<button id="btnSuma" class="styles-btns">Sumar</button>
+<button id="btnResta" class="styles-btns">Resta</button>
+<button id="btnMultiplicar" class="styles-btns">Multiplicar</button>
+<button id="btnDividir" class="styles-btns">Dividir</button>
 <p id="resultado"></p>
+<select id="selectChatGPT" class="styles-btns">
+    <option value="no" selected>No mostrar ChatGPT</option>
+    <option value="yes">Mostrar ChatGPT</option>
+</select>
+<input type="hidden" id="hiddenGpt" value="no"></input>
+<p><button id="btngpt" class="styles-btns"><a href="https://chatgpt.com/">ChatGPT</a></button></p>
 
 
 <script src="./js/main.js"></script>

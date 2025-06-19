@@ -30,8 +30,25 @@ document.getElementById("btnSuma").addEventListener("click", function() {
 
     let contenedorResultado = document.getElementById("resultado");
 
+    //Vamos a mostrar el contenedor con el css display:block;
+    contenedorResultado.style.display = "block";
+    contenedorResultado.style.backgroundColor = "#FFFFFF"
+
     contenedorResultado.innerHTML = `El resultado de la suma es: ${resultado}`;
     ejemplo = 1;
     // contenedorResultado.innerHTML = "El resultado de la suma es: " + resultado ;
     //Es lo mismo queda a tu preferencia.
+});
+
+let hiddenGpt = document.getElementById("hiddenGpt");
+//Seleccionar select con id selectChatGPT
+document.getElementById("selectChatGPT").addEventListener("change", function() {
+    let select = document.getElementById("selectChatGPT");
+    if (select.value === 'yes'){
+        hiddenGpt.value = 'yes';
+        document.getElementById('btngpt').style.display = 'block';
+    }else {
+        hiddenGpt.value = 'no';
+        document.getElementById('btngpt').style.display = 'none';
+    }
 });
