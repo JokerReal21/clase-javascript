@@ -1,0 +1,181 @@
+#btnSuma {
+background-color: #000;              
+color: #fff;                       
+padding: 14px 28px;                  
+border: 2px solid #ff0033;         
+border-radius: 6px;                 
+font-family: 'Segoe UI', sans-serif; 
+font-size: 16px;
+text-transform: uppercase;          
+letter-spacing: 1px;
+cursor: pointer;
+transition: all 0.3s ease;
+box-shadow: 0 0 0 transparent;      
+}
+#btnSuma:hover {
+background-color: #ff0033;           
+color: #000;                        
+box-shadow: 0 0 10px #ff0033;       
+transform: scale(1.05);
+}
+#btnResta {
+background-color: #000;              
+color: #fff;                       
+padding: 14px 28px;                  
+border: 2px solid #ff0033;         
+border-radius: 6px;                 
+font-family: 'Segoe UI', sans-serif; 
+font-size: 16px;
+text-transform: uppercase;          
+letter-spacing: 1px;
+cursor: pointer;
+transition: all 0.3s ease;
+box-shadow: 0 0 0 transparent;      
+}
+#btnResta:hover {
+background-color: #ff0033;           
+color: #000;                        
+box-shadow: 0 0 10px #ff0033;       
+transform: scale(1.05);
+}
+#btnMultiplicar {
+background-color: #000;              
+color: #fff;                       
+padding: 14px 28px;                  
+border: 2px solid #ff0033;         
+border-radius: 6px;                 
+font-family: 'Segoe UI', sans-serif; 
+font-size: 16px;
+text-transform: uppercase;          
+letter-spacing: 1px;
+cursor: pointer;
+transition: all 0.3s ease;
+box-shadow: 0 0 0 transparent;      
+}
+#btnMultiplicar:hover {
+background-color: #ff0033;           
+color: #000;                        
+box-shadow: 0 0 10px #ff0033;       
+transform: scale(1.05);
+}
+#btnDividir {
+background-color: #000;              
+color: #fff;                       
+padding: 14px 28px;                  
+border: 2px solid #ff0033;         
+border-radius: 6px;                 
+font-family: 'Segoe UI', sans-serif; 
+font-size: 16px;
+text-transform: uppercase;          
+letter-spacing: 1px;
+cursor: pointer;
+transition: all 0.3s ease;
+box-shadow: 0 0 0 transparent;      
+}
+#btnDividir:hover {
+background-color: #ff0033;           
+color: #000;                        
+box-shadow: 0 0 10px #ff0033;       
+transform: scale(1.05);
+}
+#btngpt {
+background-color: #000;              
+color: #fff;                       
+padding: 14px 28px;                  
+border: 2px solid #ff0033;         
+border-radius: 6px;                 
+font-family: 'Segoe UI', sans-serif; 
+font-size: 16px;
+text-transform: uppercase;          
+letter-spacing: 1px;
+cursor: pointer;
+transition: all 0.3s ease;
+box-shadow: 0 0 0 transparent;      
+}
+#btngpt:hover {
+background-color: #ff0033;           
+color: #000;                        
+box-shadow: 0 0 10px #ff0033;       
+transform: scale(1.05);
+}
+#resultado {
+background-color: #111;         
+color: #00ff66;                    
+padding: 16px 20px;
+border: 2px solid #ff0033;         
+border-radius: 8px;
+font-family: 'Courier New', monospace; 
+font-size: 24px;
+margin-top: 20px;
+text-align: right;                 
+box-shadow: 0 0 15px #ff0033a0;
+width: 100%;
+max-width: 400px;
+box-sizing: border-box;
+}
+
+#val1 {
+background-color: #111;            
+color: #fff;                        
+border: 2px solid #ff0033;         
+border-radius: 6px;
+padding: 12px 16px;
+font-family: 'Segoe UI', sans-serif;
+font-size: 16px;
+outline: none;
+transition: all 0.3s ease;
+width: 20%;
+box-sizing: border-box;
+}
+
+#val1::placeholder {
+color: #aaa;                      
+}
+
+#val1:focus {
+border-color: #fff;              
+box-shadow: 0 0 10px #ff0033;
+background-color: #000;
+}
+#val2 {
+background-color: #111;            
+color: #fff;                        
+border: 2px solid #ff0033;         
+border-radius: 6px;
+padding: 12px 16px;
+font-family: 'Segoe UI', sans-serif;
+font-size: 16px;
+outline: none;
+transition: all 0.3s ease;
+width: 20%;
+box-sizing: border-box;
+}
+
+#val2::placeholder {
+color: #aaa;                      
+}
+
+#val2:focus {
+border-color: #fff;              
+box-shadow: 0 0 10px #ff0033;
+background-color: #000;
+}
+#titulo {
+color: #ff0033;                
+font-family: 'Segoe UI', sans-serif;
+font-weight: 700;
+font-size: 2.5rem;
+text-transform: uppercase;
+letter-spacing: 3px;
+text-shadow: 0 0 10px #ff0033a0;
+margin-bottom: 20px;
+user-select: none;                
+transition: color 0.3s ease;
+cursor: default;
+}
+
+#titulo:hover {
+color: #000;
+text-shadow: none;
+cursor: pointer;
+}
