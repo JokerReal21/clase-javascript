@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +9,13 @@
     <meta name="author" content="Nosotros">
     <!-- Despues van las etiquetas para manejar css -->
     <link rel="stylesheet" href="Styles/main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <title>Practica JS</title>
 </head>
 <header>
 </header>
+
 <body>
     <h3 id="titulo">Aqui vamos a practicar JS</h3>
     <input type="number" id="val1" placeholder="Ingrese valor 1"></input>
@@ -43,6 +46,39 @@
             <button type="button" class="btn btn-outline-success btn-lg col">Boton bootstrap4</button>
         </div>
     </div>
+    <div class="card" style="width: 18rem;">
+        <img src="\Media\1.jpg" class="cardimg" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">One Piece</h5>
+            <p class="card-text">El mejor anime del mundo</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Mejor Shonen</li>
+            <li class="list-group-item">Mejor trama</li>
+            <li class="list-group-item">Mas Largo</li>
+        </ul>
+        <div class="card-body">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Haz Click Aqui</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">One Piece</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Joder esto si es cine
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 <footer>
 </footer>
@@ -51,5 +87,4 @@
 <script src="./js/rest.js"></script>
 <script src="./js/multi.js"></script>
 <script src="./js/dividir.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
